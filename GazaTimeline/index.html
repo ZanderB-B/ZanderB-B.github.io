@@ -1,0 +1,558 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="./d3-timeline.js"></script>
+  <link rel="stylesheet" href="./gazaStyle.css" />
+  <link rel="icon" type="image/x-icon" href="./a.jpg">
+</head>
+
+<body>
+ <div class="wrap0" id="time1">
+    <h1 class="title" id="tit">A Timeline of Control Over the Rafah Crossing Point</h1>
+</div>
+
+<!-- 1st section of text + image -->
+<div style="width:100%; overflow:hidden; display:inline-block;" id="para1">
+  <div class="" >
+    <div class="" style="padding-top:10px">By Zander Bamford-Brown</div>
+    <p>The Rafah Crossing Point is the only official crossing for people between Egypt and Palestine. The crossing is a lifeline for Gazans enduring the ongoing blockade by Israel and Egypt and is one of only two places where people can officially enter and exit the Gaza Strip.  As with many aspects of the Israeli-Palestinian conflict, this crossing has a complex history. Below we have produced a timeline of the groups that have had direct control over this crossing. It is important to note that this timeline is focused on the macro-scale and diplomatic relations surrounding the control of the official crossing. The reality for people, especially Palestinians in the Gaza Strip, is far more intricate. There are other official, unofficial, and illicit levels of control that impact the movement of people through this crossing. For example, while the Rafah border crossing was closed a system of tunnels between Gaza and Egypt allowed goods and people to cross the border. Conversely, even during the most open times there were significant border closures and individual restrictions imposed by Israelis on many Gazans. <br><br>
+	</p>
+  </div>
+
+</div>
+
+<!-- svg timeline -->
+  <div id="box" class="wrap1" style="font-size:10">
+    <div style="padding:1%"><i>Click on any of the colored rectangles to display more information about the events that began and ended this period and the impact that it had on the control of the boundary. There is additional general information on Palestine and the Gaza Strip below the timeline.</i></div>
+
+<!--  <button id="fullscreen" class="btn">Full Screen</button> -->
+  <div class="timebox" id="time" style="margin-left:20px; margin-right: 20px;margin-bottom: 30px">
+    <p id="hoverDes"></p>
+      <div id="timeline1"></div>
+      <div id="timelineD"></div>
+      <div id="timelineE"></div>
+      <div id="timeline2"></div>
+  </div>
+  <button id="prev" onclick="prev()" class="btn">Previous Event</button>
+  <button id="next" onclick="next()" class="btn">Next Event</button>
+  <div class="descr" id="hoverRes">
+      <div id="info"></div>
+      <div id="info2" style="padding-top:10px"></div>
+  </div>
+</div>
+
+<!-- 2nd section of text + image -->
+<div style="width:100%; overflow:hidden;" id="para2">
+
+	<div class="" style="padding-top:10px">
+    <div class="bigtxt">Background on the Gaza Strip and Palestine</div>
+    <p>The State of Palestine is a de jure state that has received recognition from a majority of United Nations member States. Palestine claims the discontiguous territories of the West Bank and the Gaza Strip. The Gaza Strip is a densely populated Palestinian exclave between the westernmost part of Israel and Egypt. The area has a population of over 2 million, roughly two thirds of whom are registered refugees.  Prior to 1948, the territories of Palestine and Israel were part of the British Mandate of Palestine. The mandate's boundary with Egypt was based on a 1906 Treaty (see our Egypt Palestine (Gaza) Boundary Brief for a detailed description and analysis of the treaty). In 1949 Egypt took control of Gaza which is occupied until the 1967 Arab-Israeli War. Israel directly occupied Gaza from 1967 until 2005. In 2005 Israel 'disengaged' from Gaza however, Israel has maintained significant control over Gaza's borders and is still widely considered by the international community to be an occupying force.<br><br> The Palestinian Authority (PA) is the governing body that based on an Agreement (Oslo Accords?) is tasked with the 'municipal' and internal affairs of Palestine. The PA has also come to take a role in representing Palestine internationally. Hamas is a militant Islamic Palestinian political party and organization. Hamas has been in control of Gaza since it won the PA legislative elections in 2006. In 2007 a violent conflict between Hamas and Fatah, the other large political party in the Palestinian legislature, led to Hamas gaining sole de facto control over Gaza while Fatah and the PA retained control of the West Bank. A handful of states, including Israel and the United States, consider Hamas to be a terrorist organization. Many other states consider Hamas' military wing to be a terrorist organization.
+    </p>
+  </div>
+<figure style="display:inline-block; width:40%">
+  <img
+        alt="rafahMapImage"
+        src="./rafah_crossing_map.jpg"
+		width = 95%
+		height = 45% style="margin-top: 20px"
+    />
+    <figcaption>Caption</figcaption>
+</figure>
+  <figure style="display:inline-block; width:40%">
+    <img
+      alt="rafahCrossingImage"
+      src="./rafah_crossing.jpg"
+      width = 95%
+      height = 45% style="margin-top: 20px;"
+      />
+      <figcaption>Caption</figcaption>
+  </figure>
+  </div>
+
+
+
+<!-- credits + authors -->
+
+
+  <script type="text/javascript">
+  //  const btn = document.getElementById("fullscreen");
+    const targetDiv1 = document.getElementById("para1");
+    const targetDiv2 = document.getElementById("para2");
+	//This makes the window full screen and expands the timeline to be wider to fill the entire page
+    //function toggleFullScreen() {
+  /*    btn.onclick = function () {
+      var width = window.innerWidth;
+      if ((document.fullScreenElement && document.fullScreenElement !== null) ||
+       (!document.mozFullScreen && !document.webkitIsFullScreen)) { //this is to enter full screen
+      if (document.documentElement.requestFullScreen) {
+        document.documentElement.requestFullScreen();
+      } else if (document.documentElement.mozRequestFullScreen) {
+        document.documentElement.mozRequestFullScreen();
+      } else if (document.documentElement.webkitRequestFullScreen) {
+        document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+      }
+	  //Choosing what to display on fullscreen
+      targetDiv1.style.display = "none";
+      targetDiv2.style.display = "none";
+      document.getElementById("time").style.width = "100%";
+      document.getElementById("hoverRes").style.width = "95%";
+      document.getElementById("time").style.padding = "10px";
+      document.getElementById("timeline1").innerHTML = "";
+      document.getElementById("timeline2").innerHTML = "";
+      document.getElementById("timelineE").innerHTML = "";
+      document.getElementById("fullscreen").innerHTML = "Exit Full Screen";
+      width = window.innerWidth;
+      width = (width*0.90)-10; //get width to be number of pixels of the div
+      timeFull(width);
+    } else { //this is what happens while returning to normal size screen
+      if (document.cancelFullScreen) {
+        document.cancelFullScreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.webkitCancelFullScreen) {
+        document.webkitCancelFullScreen();
+      }
+	  //back to normal display (not fullscreen)
+      targetDiv1.style.display = "block";
+      targetDiv2.style.display = "block";
+      document.getElementById("time").style.width = "70%";
+      document.getElementById("hoverRes").style.width = "70%";
+      document.getElementById("time").style.padding = "10px";
+      document.getElementById("timeline1").innerHTML = "";
+      document.getElementById("timeline2").innerHTML = "";
+      document.getElementById("timelineE").innerHTML = "";
+      document.getElementById("fullscreen").innerHTML = "Full Screen";
+      width = window.innerWidth;
+      width = (width*0.92)-20;
+      timeFull(width);
+      }
+    }
+  */
+    //set initial width
+    var width =window.innerWidth;
+    width = (width*0.92)-20;
+    console.log("Width is " + width);
+    window.onload = timeFull(width);
+
+    function timeFull(widthIn) {
+
+
+
+	  //defining text information
+      var textControl = [
+        "26 March 1979 - 8 September 2005<br>Initiating Event: Egyptian-Israeli Peace Treaty - 26 March 1979<br>Ending Event: Israeli disengagement from Gaza - 8 September 2005<br><h4>Israel moves the internal border crossing between the Sinai Peninsula and Israel from Al-Arish to Rafah. Israel maintains a crossing point in Rafah until it disengages from Gaza in 2005.",
+        "15 November 2005 - 25 June 2006<br>Initiating Event: Israel and the Palestinian Authority sign the Agreement on Movement and Access - 15 November 2005<br>Ending Event: An Israeli soldier is captured by Palestinian militants - 25 June 2006<br><h4>This is the period while the Agreement on Movement and Access was in effect. The Agreement was publicized by the US and EU as bringing the crossing under Palestinian control,  however Israel retained the power to close the border and deny individuals from crossing it. The AMA states that the crossing can only operate with the oversight of monitors from the EU Border Assistance Mission Rafah (EUBAM Rafah). On November 26th the crossing is reopened under the new organization set up in the AMA.",
+        "25 April 1982 - 8 September 2005<br>Initiating Event: Israel leaves the Sinai Peninsula and opens the Rafah Crossing - 25 April 1982<br>Ending Event: Israeli disengagement from Gaza - 8 September 2005<br><h4>This was the period after Israeli troops withdrew from the Sinai Peninsula and before Israel withdrew from Gaza and closed the border crossing.",
+        "15 November 2005 - 25 June 2006<br>Initiating Event: Israel and the Palestinian Authority sign the Agreement on Movement and Access - 15 November 2005<br>Ending Event: An Israeli soldier is captured by Palestinian militants - 25 June 2006<br><h4>This is the period while the Agreement on Movement and Access was in effect. The Agreement was publicized by the US and EU as bringing the crossing under Palestinian control,  however Israel retained the power to close the border and deny individuals from crossing it. The AMA states that the crossing can only operate with the oversight of monitors from the EU Border Assistance Mission Rafah (EUBAM Rafah). On November 26th the crossing is reopened under the new organization set up in the AMA.</h4>",
+        "10 June 2007 - Present<br>Initiating Event: Hamas takeover of the Gaza Strip - 10 June 2007<br>Ending Event: Ongoing<br><br><h4>The Agreement on Movement and Access' implementation is frozen which allows Egypt to reopen the crossing when they so choose.</h4>",
+        "1994 - January 17 2001<br>Initiating Event: Gaza-Jericho Agreement - 1994<br>Ending Event: Second Intifada - January 17 2001<br><h4>The Gaza-Jericho Agreement gave the Palestinian Authority some oversight power over the crossing. This continues until Israel bars Palestinian peronel from enetering the crossing as a result of the Second Intifada.</h4>",
+        "15 November 2005 - 25 June 2006<br>Initiating Event: Israel and the Palestinian Authority sign the Agreement on Movement and Access - 15 November 2005<br>Ending Event: An Israeli soldier is captured by Palestinian militants - 25 June 2006<br><h4>This is the period while the Agreement on Movement and Access was in effect. The Agreement was publicized by the US and EU as bringing the crossing under Palestinian control,  however Israel retained the power to close the border and deny individuals from crossing it. The AMA states that the crossing can only operate with the oversight of monitors from the EU Border Assistance Mission Rafah (EUBAM Rafah). On November 26th the crossing is reopened under the new organization set up in the AMA.",
+        "15 November 2005 - 25 June 2006<br>Initiating Event: Israel and the Palestinian Authority sign the Agreement on Movement and Access-15 November 2005<br>Ending Event: An Israeli soldier is captured by Palestinian militants - 25 June 2006<br><h4>This is the period while the Agreement on Movement and Access was in effect. The European Union had an oversight role as a result of the implementation of the Agreement on Movement and Access. The Agreement was publicized by the US and EU as bringing the crossing under Palestinian control,  however Israel retained the power to close the border and deny individuals from crossing it. The AMA states that the crossing can only operate with the oversight of monitors from the EU Border Assistance Mission Rafah (EUBAM Rafah). On November 26th the crossing is reopened under the new organization set up in the AMA.",
+        "10 June 2007 - June 2013<br>Initiating Event: Hamas takes over the Gaza Strip - 10 June 2007<br>Ending Event: Egyptian President Mohamed Morsi overthrown - June 2013<br><h4>Hamas takes over the Gaza Strip which puts them in joint control of the crossing with the Egyptian government. This continues until Egyptian President Morsi is overthrown in 2013 and General Abdel Fattah el-Sisi comes to power and closes the crossing.</h4>",
+        "10 June 2015 - Present<br>Initiating Event: Egypt and Hamas open the Salah Ad Din Gate - 2015<br>Ending Event: Ongoing<br><h4>Egypt and Hamas normalize their relations somewhat and come to an agreement to reopen the border on a regular basis.</h4>"
+      ]
+
+      var textAccess = [
+        "Not applicable because the border crossing is not in Rafah.",
+        "The Rafah Crossing Point is opened and people are allowed to use it to pass between Gaza and Egypt.",
+        "Israel withdraws its security forces and settlers from the Gaza Strip and closes the border during this transition.",
+        "Israel and the Palestinian Authority sign the Agreement on Movement and Access which reopens the crossing with oversight from the European Union and more power for the Palestinian Authority.",
+        "As a result of the capture of an Israeli soldier by a Palestinian militants, Israel closes the Rafah Crossing by not allowing EUBAM Rafah monitors to access the crossing. It remains closed the majority of the time until the discontinuation of the implementation of the AMA a year later.",
+        "Hamas takes control of the Gaza Strip. This is the last time that the crossing was operated with EUBAM Rafah monitors. Between this day and 2011, the crossing is opened infrequently and irregularly by Egypt and Hamas.",
+        "Following the Egyptian Revolution, the new Egyptian government signs an Agreement to reopen the crossing.",
+        "Egyptian President Mohamed Morsi overthrown. Sisi, the new leader who is not as aligned with Hamas, closes the Rafah Crossing.",
+        "Salah Ad Din Gate begins to be used to bring goods into Gaza.",
+        "Hamas closes the border to limit the spread of COVID-19. This marks one of the few times a Palestinian government has closed the Rafah Crossing.",
+        "Egypt and Hamas begin to cooperate and the Rafah Crossing is reopened. There are short (few days to a week) and intermittent closings in response to fighting between Hamas and Israel but the border remains largely open."
+      ]
+	  //defining bands properties for timeline
+
+    var tlbackgroundColor = "lightblue";
+
+  /*  var euColor1 = "#0000ff";
+    var euColor2 = "#01016f";
+    var euColor3 = "#0000ff";
+
+    var egColor1 = "#ff0000";
+    var egColor2 = "#5A0101";
+    var egColor3 = "#ff0000";
+
+    var isColor1 = "#ee82ee";
+    var isColor2 = "#482948";
+    var isColor3 = "#ee82ee";
+
+    var paColor1 = "#ffa500";
+    var paColor2 = "#bf7c02";
+    var paColor3 = "#ffa500";
+
+    var haColor1 = "#3cb385";
+    var haColor2 = "#1e5d44";
+    var haColor3 = "#3cb385";
+*/
+    var euColor1 = "#743aa1";
+    var euColor2 = "#56376e";
+    var euColor3 = euColor1;
+
+    var egColor1 = "#532f6e";
+    var egColor2 = "#342440";
+    var egColor3 = egColor1;
+
+    var isColor1 = "#a94eed";
+    var isColor2 = "#785096";
+    var isColor3 = isColor1;
+
+    var paColor1 = "#b45cf7";
+    var paColor2 = "#71508a";
+    var paColor3 = paColor1;
+
+    var haColor1 = "#9147c9";
+    var haColor2 = "#614378";
+    var haColor3 = haColor1;
+
+
+      var control = [
+        {label: "Israel", times: [
+          {"info":"0","color":isColor1, "newColor":isColor2, "ogColor":isColor3, "label":"", "starting_time": 291472400000, "ending_time": 1126238400000, "click":0},
+          {"info":"1","color":isColor1, "newColor":isColor2, "ogColor":isColor3, "label":"", "starting_time": 1132030800000 , "ending_time":1151208000000, "click":0} ] ,info:"Direct control until Hamas takeover"},
+        {label: "Egypt", times: [
+            {"info":"2","color": egColor1, "newColor": egColor2, "ogColor": egColor3, "label":"", "starting_time":388558800000, "ending_time": 1126152000000, "click":0},
+            {"info":"3","color": egColor1, "newColor": egColor2, "ogColor": egColor3, "label":"", "starting_time": 1132030800000 , "ending_time":1151208000000, "click":0},
+            {"info":"4","color": egColor1, "newColor": egColor2, "ogColor": egColor3, "label":"", "starting_time": 1181448000000 , "ending_time":1612846800000, "click":0}] ,info:"Egypt has control most of the time"},
+        {label: "PA", times: [
+          {"info":"5","color":paColor1, "newColor":paColor2, "ogColor":paColor3,"label":"", "starting_time": 757400400000, "ending_time": 979707600000, "click":0},
+          {"info":"6","color":paColor1, "newColor":paColor2, "ogColor":paColor3,"label":"", "starting_time": 1132030800000 , "ending_time":1151208000000, "click":0}
+          ]
+        },
+        {label: "EU", times: [
+          {"info":"7","color": euColor1, "newColor": euColor2, "ogColor": euColor3, "label":"", "starting_time": 1132030800000 , "ending_time":1151208000000, "click":0}], info:"EU has oversight role duirng AMA implementation"},
+        {label: "Hamas", times: [
+          {"info":"8","color":haColor1, "newColor":haColor2, "ogColor":haColor3,"label":"", "starting_time": 1181448000000, "ending_time": 1370059200000, "click":0},
+          {"info":"9","color":haColor1, "newColor":haColor2, "ogColor":haColor3,"label":"", "starting_time":1420088400000, "ending_time": 1612846800000, "click":0}], info:"Hamas takes over"}
+      ]
+	  //dfining closure bands
+
+    var acNull = "#dbdbdb";
+    var acHigh = "#9E2E29";
+    var acMid = "#b8514b";
+    var acLow = "#db7d79";
+
+    var acNulln = "grey";
+    var acHighn = "#612724";
+    var acMidn = "#804441";
+    var acLown = "#ab7c79";
+
+    var acNull2 = "#dbdbdb";
+    var acHigh2 = "#9E2E29";
+    var acMid2 = "#b8514b";
+    var acLow2 = "#db7d79";
+      var access = [
+        {label: "Closures", times: [
+          {"info":"0","color": acNull, "newColor":acNulln, "ogColor":acNull2, "label":"", "starting_time": 291272400000 , "ending_time":388558800000, "click":0},
+          {"info":"1","color":acLow, "newColor":acLown, "ogColor":acLow2, "label":"", "starting_time": 388558800000 , "ending_time":1126152000000, "click":0},
+          {"info":"2","color": acHigh, "newColor":acHighn, "ogColor":acHigh2, "label":"", "starting_time": 1126152000000 , "ending_time":1132030800000, "click":0},
+          {"info":"3","color":acLow, "newColor":acLown, "ogColor":acLow2, "label":"", "starting_time": 1132030800000 , "ending_time":1151208000000, "click":0},
+          {"info":"4","color": acMid, "newColor":acMidn, "ogColor":acMid2, "label":"", "starting_time": 1151208000000 , "ending_time":1181448000000, "click":0},
+          {"info":"5","color":acHigh, "newColor":acHighn, "ogColor":acHigh2, "label":"", "starting_time": 1181448000000 , "ending_time":1304481600000, "click":0},
+          {"info":"6","color":acLow, "newColor":acLown, "ogColor":acLow2, "label":"", "starting_time": 1304481600000 , "ending_time":1370059200000, "click":0},
+          {"info":"7","color":acHigh, "newColor":acHighn, "ogColor":acHigh2, "label":"", "starting_time": 1370059200000 , "ending_time":1420088400000, "click":0},
+          {"info":"8","color":acLow, "newColor":acLown, "ogColor":acLow2, "label":"", "starting_time": 1420088400000 , "ending_time":1583038800000, "click":0},
+          {"info":"9","color":acHigh, "newColor":acHighn, "ogColor":acHigh2, "label":"", "starting_time": 1583038800000 , "ending_time":1612846800000, "click":0},
+          {"info":"10","color":acLow, "newColor":acLown, "ogColor":acLow2, "label":"", "starting_time": 1612846800000 , "ending_time":1622846800000, "click":0}
+        ]},
+      ]
+      //defining events bands
+      var ev1 = "#2174d1";
+      var ev2 = "#094F9E";
+      var ev3 = "#2174d1";
+      var events = [
+        {label: "Events", times: [
+          {"display": "circle","label":"","info":"0","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 291272400000 , "ending_time":388558800000, "click":0},
+          {"display": "circle","label":"","info":"1","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 388558800000 , "ending_time":1126152000000, "click":0},
+          {"display": "circle","label":"","info":"2","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 757400400000 , "ending_time":757400500000, "click":0},
+          {"display": "circle","label":"","info":"3","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 979707600000 , "ending_time":979707700000, "click":0},
+          {"display": "circle","label":"","info":"4","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 1120152000000 , "ending_time":1132030800000, "click":0},
+          {"display": "circle","label":"","info":"5","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 1132030800000 , "ending_time":1151208000000, "click":0},
+          {"display": "circle","label":"","info":"6","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 1151208000000 , "ending_time":1181448000000, "click":0},
+          {"display": "circle","label":"","info":"7","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 1181448000000 , "ending_time":1304481600000, "click":0},
+          {"display": "circle","label":"","info":"8","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 1304481600000 , "ending_time":1370059200000, "click":0},
+          {"display": "circle","label":"","info":"9","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 1370059200000 , "ending_time":1420088400000, "click":0},
+          {"display": "circle","label":"","info":"10","color":ev1, "newColor":ev2, "ogColor":ev3,"starting_time": 1420088400000 , "ending_time":1583038800000, "click":0},
+          {"display": "circle","label":"","info":"11","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 1583038800000 , "ending_time":1612846800000, "click":0},
+          {"display": "circle","label":"","info":"12","color":ev1, "newColor":ev2, "ogColor":ev3, "starting_time": 1612846800000 , "ending_time":1622846800000, "click":0},
+        ]}
+        ,
+
+      ]
+      var textEvents = [
+        "<h3>26 March 1979: Egyptian-Israeli Peace Treaty</h3><br>The Egyptian-Israeli Peace Treaty returned the boundary roughly to the boundary delimited in 1906. This meant that the Sinai Peninsula comes under Egyptian control and Gaza remains under Israeli control. Israeli troops begin to withdraw from the peninsula soon after the treaty is signed.",
+        "<h3>25 April 1982: Israel leaves the Sinai Peninsula and opens the Rafah Crossing.</h3><br>The completion of the withdrawal of Israeli troops is the first time ever that the boundary is both legally and actually an international boundary. The Rafah Crossing Point is opened as an international border with the Israel Airports Authority and Egyptian forces in control.",
+        "<h3>1994: Gaza-Jericho Agreement</h3><br>The Gaza-Jericho Agreement is signed which deals with Palestinian autonomy and includes a new system of joint control over the Rafah Crossing. Under the new system the PA gains some control over security and screening processes. However, Israel retains control over most of the security and management of the crossing, as well as powers to inspect and deny access to any person. This part of the Agreement will be nullified and replaced by nearly identical language in the Oslo II Agreement.",
+        "<h3>January 17 2001: Israel takes full control over the Rafah Crossing.</h3><br>Palestinian personnel working at the Rafah Crossing are barred entry by Israel, returning the crossing to exclusive Israeli control. This was a result of the Second Intifada, a violent Palestinian uprising against Israel. Israel’s exclusion of PA workers will continue until Israel’s disengagement from Gaza four years later.",
+        '<h3>8 September 2005: Israeli disengagement from Gaza.</h3><br>The crossing is closed by Israel as part of the withdrawal of Israeli forces and settlers from the Gaza Strip. The UN states that this will “allow Palestinian and Egyptian security forces to deploy later”.',
+        "<h3>15 November 2005: Israel and the Palestinian Authority sign the Agreement on Movement and Access (AMA)</h3><br>The Agreement was publicized by the US and EU as bringing the crossing under Palestinian control, however Israel retained the power to close the border and deny individuals from crossing it. The AMA states that the crossing can only operate with the oversight of monitors from the EU Border Assistance Mission Rafah (EUBAM Rafah). On November 26th the crossing is reopened under the new organization set up in the AMA.",
+        "<h3>25 June 2006: An Israeli soldier is captured by Palestinian militants.</h3><br>As a result of the capture, Israel closes the Rafah Crossing by not allowing EUBAM Rafah monitors to access the crossing. It remains closed the majority of the time until the discontinuation of the implementation of the AMA a year later.",
+        "<h3>10 June 2007: Hamas takeover of the Gaza Strip.</h3><br>The AMA's implementation is frozen as a result of the Hamas takeover of the Gaza Strip. This begins the permanent blockade of Gaza. The week before Hamas, a militant Palestinian Islamic organization who had controlled the PA legislature since it won the 2006 election, broke from the PA and took control over Gaza. This is the last time that the crossing was operated with EUBAM Rafah monitors. Between this day and 2009, the crossing is opened infrequently and irregularly by Egypt and Hamas.",
+        "<h3>4 May 2011: The new Egyptian government signed an Agreement to reopen the crossing</h3><br>Egyptian president Hosni Mubarak, who opposed Hamas, steps down on February 12th during the Egyptian Revolution. This paved the way for this Agreement which reopened the Rafah Crossing on a regular basis starting 28 May 2011.",
+        "<h3>June 2013 Egyptian President Mohamed Morsi overthrown</h3><br>A coup by General Abdel Fattah el-Sisi removes president Morsi from power. President Morsi had taken power following the Egyptian Revolution and was aligned with Hamas. Sisi, who is not as aligned with Hamas, closes the Rafah Crossing.",
+        "<h3>2015: Salah Ad Din Gate begins to be used to bring goods into Gaza.</h3><br>There had previously been no crossings for goods between Egypt and Gaza. The Salah Ad Din Gate was used to bring goods over while avoiding the issues with the Paris Protocol The gate now regularly brings goods from Egypt into Gaza.",
+        "<h3>March 2020: COVID-19.</h3><br>Hamas closes the border to limit the spread of COVID-19. This marks one of the few times a Palestinian government has closed the Rafah Crossing.",
+        "<h3>9 February 2021: Egypt opens the border indefinitely</h3><br>After talks in Cairo, Egypt and Hamas begin to cooperate and reopen the Rafah Crossing. There are short (few days to a week) and intermittent closings in response to fighting between Hamas and Israel but the border remains largely open."
+      ]
+
+
+      var width = widthIn;
+      var infoCounter = 0;
+      var dataCounter = 3;
+      var prevInfo = 0;
+      var prev1 = 0;
+
+      document.onkeydown = checkKey;
+
+      function checkKey(e) {
+
+        e = e || window.event;
+
+        if (e.keyCode == '38') {
+        // up arrow
+        }
+        else if (e.keyCode == '40') {
+        // down arrow
+        }
+        else if (e.keyCode == '37') {
+//left arrow
+          if (infoCounter > 0){
+              infoCounter--;
+          }
+          infoSet(dataCounter, infoCounter);
+      }
+      else if (e.keyCode == '39') {
+//right arrow
+        var checkInfo = infoCounter;
+        checkInfo++;
+      //  checkInfo++;
+        if (dataCounter == 1 && checkInfo < (textControl.length)){
+          infoCounter++;
+        } else if (dataCounter == 2 && checkInfo < (textAccess.length)) {
+          infoCounter++;
+        } else if (dataCounter == 3 && checkInfo < (textEvents.length)) {
+           infoCounter++;
+        }
+          checkInfo = 0;
+          infoSet(dataCounter, infoCounter);
+     }
+
+      }
+
+      function infoSet(dataAr, index){
+        var indexControl;
+        var newIndex = index;
+          prevInfo.color = prevInfo.ogColor;
+          prevInfo.click = 0;
+
+      if (dataAr == 1){
+        document.getElementById("info2").innerHTML=textControl[index];
+        if (index < 2){ //israel
+          indexControl = 0;
+        } else if (index < 5) { //egypt
+          indexControl = 1;
+          newIndex = index - 2;
+        } else if (index < 7) { //PA
+          indexControl = 2;
+          newIndex = index - 5;
+        } else if (index < 8) { //EU
+          indexControl = 3;
+          newIndex = index - 7;
+        } else { //Hamas
+          indexControl = 4;
+          newIndex = index - 8;
+        };
+        prev1 = 1;
+        control[indexControl].times[newIndex].click = 1;
+        control[indexControl].times[newIndex].color = control[indexControl].times[newIndex].newColor;
+        prevInfo = control[indexControl].times[newIndex];
+        document.getElementById("timeline1").innerHTML = "";
+        timeControl();
+
+
+      } else if (dataAr == 2) {
+        document.getElementById("info2").innerHTML=textAccess[index];
+        access[0].times[index].click = 1;
+        access[0].times[index].color = access[0].times[index].newColor;
+        prevInfo = access[0].times[index];
+        prev1 = 2;
+        document.getElementById("timeline2").innerHTML = "";
+        timeAccess();
+      } else if (dataAr == 3) {
+        document.getElementById("info2").innerHTML=textEvents[index];
+        events[0].times[index].click = 1;
+        events[0].times[index].color = events[0].times[index].newColor;
+        prevInfo = events[0].times[index];
+        prev1 = 3;
+        document.getElementById("timelineE").innerHTML = "";
+        timeEvents();
+      }
+    }
+
+      const bPrev = document.getElementById("prev");
+      bPrev.onclick = function () {
+          if (infoCounter > 0){
+              infoCounter--;
+          }
+          infoSet(dataCounter, infoCounter);
+        };
+        const bNext = document.getElementById("next");
+        bNext.onclick = function () {
+          var checkInfo = infoCounter;
+          checkInfo++;
+        //  checkInfo++;
+          if (dataCounter == 1 && checkInfo < (textControl.length)){
+            infoCounter++;
+          } else if (dataCounter == 2 && checkInfo < (textAccess.length)) {
+            infoCounter++;
+          } else if (dataCounter == 3 && checkInfo < (textEvents.length)) {
+             infoCounter++;
+          }
+            checkInfo = 0;
+            infoSet(dataCounter, infoCounter);
+          }
+
+      infoSet(dataCounter, infoCounter);
+
+      document.getElementById("timelineE").innerHTML = "";
+      document.getElementById("timeline2").innerHTML = "";
+
+      function timeControl() {
+        var svg;
+        var chart = d3.timeline()
+          .beginning(291272400000) // we can optionally add beginning and ending times to speed up rendering a little
+          .ending(1669159677498)
+          .stack() // toggles graph stacking
+          .margin({left:70, right:30, top:0, bottom:0})
+          .tickFormat( //
+            {
+            tickTime: d3.time.year,
+            tickInterval: 2,
+            tickSize: 30,
+            tickValues: null
+            })
+	//mouseover changes color
+            .hover(function (d, i, datum) {
+            // d is the current rendering object
+            // i is the index during d3 rendering
+            // datum is the id object
+
+			      d.color = d.newColor;
+            document.getElementById("timeline1").innerHTML = "";
+            svg = d3.select("#timeline1").append("svg").attr("width", width)
+              .datum(control).call(chart);
+			      })
+
+            //mouseout changes color to initial one
+            .mouseout(function (d, i, datum) {
+              if (d.click == 0) {
+              d.color = d.ogColor;
+              document.getElementById("timeline1").innerHTML = "";
+              svg = d3.select("#timeline1").append("svg").attr("width", width)
+                .datum(control).call(chart);
+            }
+            })
+
+			//clicking displays information defined above
+            .click(function (d, i, datum) {
+              infoCounter = d.info;
+              dataCounter = 1;
+              infoSet(1, d.info);
+            })
+          ;
+
+        svg = d3.select("#timeline1").append("svg").attr("width", width)
+          .datum(control).call(chart);
+      }
+
+      function timeAccess() {
+        var svg;
+        var chart = d3.timeline().showTimeAxis() //291272400000
+          .beginning(291272400000) // we can optionally add beginning and ending times to speed up rendering a little
+          .ending(1669159677498)
+          .stack() // toggles graph stacking
+          .margin({left:70, right:30, top:0, bottom:0})
+            .hover(function (d, i, datum) {
+            // d is the current rendering object
+            // i is the index during d3 rendering
+            // datum is the id object
+            d.color = d.newColor;
+            document.getElementById("timeline2").innerHTML = "";
+            svg = d3.select("#timeline2").append("svg").attr("width", width)
+              .datum(access).call(chart);
+            })
+
+            .mouseout(function (d, i, datum) {
+              if (d.click == 0) {
+              d.color = d.ogColor;
+              document.getElementById("timeline2").innerHTML = "";
+              svg = d3.select("#timeline2").append("svg").attr("width", width)
+                .datum(access).call(chart);
+              }
+            })
+
+
+            .click(function (d, i, datum) {
+
+              infoCounter = d.info;
+              dataCounter = 2;
+              infoSet(2, d.info);
+            })
+          ;
+
+        svg = d3.select("#timeline2").append("svg").attr("width", width)
+          .datum(access).call(chart);
+      }
+
+      function timeEvents() {
+        var svg;
+        var chart = d3.timeline().showTimeAxis() //291272400000
+          .beginning(291272400000) // we can optionally add beginning and ending times to speed up rendering a little
+          .ending(1669159677498)
+          .stack() // toggles graph stacking
+          .margin({left:70, right:30, top:0, bottom:0})
+            .hover(function (d, i, datum) {
+            var div = $('#hoverDes');
+            var colors = chart.colors();
+            d.color = d.newColor;
+            document.getElementById("timelineE").innerHTML = "";
+            svg = d3.select("#timelineE").append("svg").attr("width", width)
+              .datum(events).call(chart);
+            })
+
+            .mouseout(function (d, i, datum) {
+              if (d.click == 0) {
+              d.color = d.ogColor;
+              document.getElementById("timelineE").innerHTML = "";
+              svg = d3.select("#timelineE").append("svg").attr("width", width)
+                .datum(events).call(chart);
+              }
+            })
+
+            .click(function (d, i, datum) {
+              infoCounter = d.info;
+              dataCounter = 3;
+              infoSet(3, d.info);
+            })
+          ;
+        svg = d3.select("#timelineE").append("svg").attr("width", width)
+          .datum(events).call(chart);
+
+
+      }
+	  //calling the 3 functions to build the timeline
+      timeControl();
+      timeEvents();
+      timeAccess();
+
+    }
+  </script>
+
+</body>
+</html>
