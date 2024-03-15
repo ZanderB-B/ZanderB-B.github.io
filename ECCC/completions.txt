@@ -1,0 +1,2757 @@
+
+Unnamed: 0	conversation_id	created_at	author_id	lang	text	source	id	retweet_count	reply_count	...	user_description	user_id	user_username	user_name	user_created_at	user_followers_count	user_following_count	user_tweet_count	user_listed_count	user_location
+0	0	1465843812979384320	2021-12-01T00:42:53.000Z	28612106	en	Remember to write a list of important contact ...	Hootsuite Inc.	1465843812979384320	4	0	...	Outages: *HYDRO (*49376) on cell 1 800 BCHYDRO...	2.861211e+07	bchydro	BC Hydro	2009-04-03T17:37:43.000Z	106904.0	690.0	54622.0	722.0	NaN
+1	1	1466107083493945350	2021-12-01T18:09:02.000Z	1022139761421561856	en	It's #BCStorm Season ~ Do you own property alo...	Sprout Social	1466107083493945350	1	0	...	Central Vancouver Island BC Hwy maintenance co...	1.022140e+18	MainroadMIsland	Mainroad Mid Island | Shift into Winter	2018-07-25T15:21:24.000Z	665.0	459.0	3872.0	7.0	Parksville, British Columbia
+2	2	1466132501961789456	2021-12-01T19:50:02.000Z	1468394269	en	During an emergency having a working cell phon...	Hootsuite Inc.	1466132501961789456	2	0	...	AgSafe is committed to creating a safe work en...	1.468394e+09	AgSafeBC	AgSafeBC	2013-05-29T22:19:41.000Z	1135.0	1201.0	5425.0	26.0	Langley BC
+3	3	1466138826133450755	2021-12-01T20:15:10.000Z	3064610619	en	We are pleased to announce that MetNotes are n...	Hootsuite Inc.	1466138826133450755	2	1	...	Canada’s official weather and climate source. ...	3.064611e+09	ECCCWeatherNL	ECCC Weather Newfoundland and Labrador	2015-02-28T00:32:01.000Z	3130.0	11.0	329.0	45.0	Newfoundland and Labrador, Canada
+4	4	1466154334274523136	2021-12-01T21:16:47.000Z	41618221	en	⚠️UPDATE #BCHwy99 - OPEN to essential travel o...	TweetDeck	1466154334274523136	17	0	...	DriveBC Official account\nBC Ministry of Trans...	4.161822e+07	DriveBC	DriveBC	2009-05-21T16:22:17.000Z	228614.0	228.0	155379.0	1422.0	British Columbia
+5 rows × 24 columns
+
+Tweet 1 of 200
+Tweet: Remember to write a list of important contact numbers in your outage plan and emergency kit. Here are some more tips: https://t.co/Csh1uXODwH #BCStorm https://t.co/kRhdODSRhY
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 2 of 200
+Tweet: It's #BCStorm Season ~ Do you own property along a BC highway? If so, you'll need the scoop on your culvert responsibilities: https://t.co/Dt4bVLVs34
+
+To report a culvert maintenance issue, give us a call 1-877-215-6006 and be sure to leave your # for a callback. https://t.co/1ZkHdobwdk
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 3 of 200
+Tweet: During an emergency having a working cell phone is critical. Conserve your battery:
+✔️Dim your screen 
+✔️Text instead of call
+✔️Switch your phone to a power-saving mode
+✔️Switch off vibrate 
+✔️Only use essential apps to get updates and avoid using video
+#BCFlood #BCstorm https://t.co/42DfTFo0Nd
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 4 of 200
+Tweet: We are pleased to announce that MetNotes are now live in the WeatherCAN app! Check the bottom of your local page and swipe up for more info. #nlwx https://t.co/F0S8UUOCqg
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 5 of 200
+Tweet: ⚠️UPDATE #BCHwy99 - OPEN to essential travel only between #Lillooet and #Pemberton ⚠️
+
+❗️ Travel advisory in effect. Vehicles over 14,500kg licensed GVW will not be permitted. Expect changing winter conditions. ❗️
+
+ℹ️https://t.co/46PjoMCkeK
+
+#SeatoSky #BCStorm #WhistlerBC
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": true,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 6 of 200
+Tweet: Ever heard of #hydrologicstationarity?
+
+https://t.co/Utlke8gNge
+
+What we've relied on as climate norms are changing and we need to adapt 
+
+#BCStorm #BCFloods #ClimateAction 
+#ClimateCrisis 
+#ClimateEmergency
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 7 of 200
+Tweet: Fires, floods, earthquakes, or other emergencies are some of the most stressful events one can experience. 
+
+Read our full list of tips:
+https://t.co/2zc6jGl89D 
+
+#mentalhealth #bcstorm #tricities #tricitytransitionsbc https://t.co/astT8K07mY
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 8 of 200
+Tweet: Marine Atlantic has cancelled crossings this morning.
+Crossings for this evening and Saturday could also be impacted. #nlwx #nltraffic
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 9 of 200
+Tweet: ❄️With winter weather in the forecast, have you considered volunteering as a Snow Angel? View the list of Coquitlam neighbourhoods in need of volunteers and sign up at https://t.co/qXoLdUgzWs
+
+#beagoodneighbour #snowangel #coquitlam #wintersafety  #tricities #winterinbc #bcstorm https://t.co/vO7cmrwKcB
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 10 of 200
+Tweet: Returning home after your First Nation or local government has said it’s safe can be overwhelming. There are steps you can take &amp; supports available to make the process more manageable https://t.co/7aDi7KT35Y 
+
+#PreparedBC #BCstorm #BCflood https://t.co/hl54YqxjG8
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 11 of 200
+Tweet: If you have insurance questions related to flooding, please call your insurance rep., visit https://t.co/blIAa4Pukg or call IBC’s Consumer Information Centre at 1-844-2ask-IBC. We’re here to help. #NSStorm #NBStorm #NLStorm #PEStorm https://t.co/pxkAIIuGab
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 12 of 200
+Tweet: Ice and snowfall accumulation projections for #ONstorm #QCstorm with the inbound Montana low. Travelling plans in these affected areas may need to be postponed Sunday and Monday. Slippery roads will be a concern with the bout of freezing rain and snow. #ONwx #meteoqc https://t.co/UucErGcK94
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 13 of 200
+Tweet: Nice to see Cobb's Pond about 80 to 90% caught over.  A fine chilly night for a #MuttStrut.  Even a little flurry near the end as garnish.  Will it last this week's #nlwx?
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 14 of 200
+Tweet: All #NIC campuses are open today. Please use caution when traveling in #winter weather conditions.
+
+For information and updates, please visit https://t.co/tatL3nTqUO
+
+#BCStorm #BCSnow #IamNIC https://t.co/Y5PmcsS3Kf
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 15 of 200
+Tweet: #NIC's Mixalakwila campus in #PortHardy is closed today due to weather affecting roads and power conditions. All other campuses remain open. 
+
+Follow us for updates and visit https://t.co/Lsu2Dw2rGW for information on weather closures.  
+
+#BCStorm #BCSnow #IamNIC https://t.co/HPxs4d0820
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 16 of 200
+Tweet: ❄️Snow is falling! Curious how to measure it? Check out the infographic below.
+
+For up to date information on how long it will last, check out forecasts and alerts in your area!
+
+https://t.co/O9iJmz9ORq
+https://t.co/2qgadjErQw
+
+#BCstorm https://t.co/A7dtrKFlnh
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 17 of 200
+Tweet: I'm looking to showcase more photos from Prince Edward Island, and NL in the weather section of SaltWire print publications and https://t.co/6uWoGj33Ba!
+
+Email me your photos: weather@saltwire.com
+
+@StJohnsTelegram @PEIGuardian @SaltWireNetwork #NLwx #PEwx
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 18 of 200
+Tweet: With all of Newfoundland under an Environment Canada wind warning today, here are some handy tips for securing Santa, Rudolph, and your other outdoor Christmas decorations ☃️ 🎄 #nlwx 
+
+https://t.co/Q5gx2VOq7E https://t.co/1QyRjoAi7O
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": true,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 19 of 200
+Tweet: A downed line is an emergency. If you see one, dial 911 and stay back 10 metres to stay safe. Learn more: https://t.co/9UDNSTMl1e #BCStorm https://t.co/tqwLJBDdEI
+Response: {
+  "weather information": false,
+  "caution": true,
+  "advice": true,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 20 of 200
+Tweet: Metro Vancouver well users warned of contamination due to flooding
+https://t.co/xW2dPoxHWp #BCStorm https://t.co/wt6PsU9L50
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 21 of 200
+Tweet: A few rainfall totals through 3:30 pm:
+
+83.8 mm (Bay d'Espoir);
+38.5 mm* (Millertown);
+32.9 mm* (Badger);
+31.8 mm* (Corner Brook);
+28.6 mm (Port aux Basques);
+26.6 mm* (Rocky Harbour);
+21.9 mm (Winterland).
+20.8 mm (Stephenville #YJT).
+
+* incl couple cm melted snow
+
+#nlwx
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 22 of 200
+Tweet: Oh oh, my turn!  A lovely pink flare and corresponding waxing crescent to almost make you forget the departing tempest... almost.  #nlwx https://t.co/fIrS1DTaEW
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 23 of 200
+Tweet: With a system like the one we're having now, track is very important.
+The heaviest snowband is barely 100 km wide.
+It's currently just offshore, but if the track shifts northwards, it's entirely possible that we see up to 30 cm of snow.
+#NSStorm https://t.co/HUEvzuM8YG
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 24 of 200
+Tweet: Ridge Road &amp; Prince Philip Drive campuses (inc. ATC Centre, Childcare Centre and Topsail Road Office) will have a delayed opening.  Update at 9 a.m. Online classes will continue. #nlwx #nlschools
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 25 of 200
+Tweet: Stay informed of the latest closures through the CBC Storm Centre
+
+https://t.co/V5WchpUwAI #cbcnl #nlwx https://t.co/LusLlBKzqa
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 26 of 200
+Tweet: I cannot confirm, but it appears that St. Mary's on the southern Avalon has transitioned to rain with a temperature of 1.3°C and rainfall rate of 1.3mm/hr
+
+(note: This could also be snow &amp; ice melting into the rain gauge, which is why I cannot confirm)
+
+#NLwx https://t.co/g46KmVP2af
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 27 of 200
+Tweet: We will delay opening until 1:00pm today (Thursday, December 9th, 2021) due to the weather conditions! Stay safe ⛄️ 
+
+#halifax #spa #boutique #delayedopening #NSStorm #snowstorm #dartmouth #novascotia #sincerelyskin https://t.co/uaOoWTUUZl
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 28 of 200
+Tweet: Many are hunkering down as snow blankets the province today. Thank you to the crews who are working hard to clear the roads and keep us safe.
+
+#NSstorm
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": true,
+  "other impact": false
+}
+
+Tweet 29 of 200
+Tweet: *UPDATE* CLOSURE NOTICE: Due to the weather the Museum of Natural History will remain closed today, Thursday, December 9. #NSStorm https://t.co/WUkZ2gI3nw
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 30 of 200
+Tweet: Efforts are underway to save the fishing vessel the Executioner, currently sinking in St. John's harbour. #nlwx
+
+The latest from @TelyPhotoGosse https://t.co/xOigZafDtS https://t.co/lfXf3Vnq96
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": true
+}
+
+Tweet 31 of 200
+Tweet: Anyone have some snowfall estimates on the Burin peninsula? #nlwx
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 32 of 200
+Tweet: UPDATED | Sinking fishing vessel stabilized in St. John's harbour amid 1st winter storm
+
+https://t.co/ptr3XDSXjz
+
+#nlwx #cbcnl https://t.co/c6PUucXgJK
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": true
+}
+
+Tweet 33 of 200
+Tweet: Winds have begun to pick up on the southern Avalon; Cape Pine reporting gust 132 km/h at 6:34 pm. https://t.co/RucIc5nJva #nlwx
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 34 of 200
+Tweet: Strongest winds are now over the Avalon Peninsula. The next few hours will be quite windy. There are multiple power outages being reported. #nlwx
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 35 of 200
+Tweet: Minister Bibeau and BC’s Minister Popham toured flood areas in the Fraser Valley yesterday where they met with farmers and saw firsthand the impacts of the #BCFlood on #CdnAg: https://t.co/y5Db3x2xbQ #BCStorm @BCGovNews https://t.co/Rg4CC3oaCo
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": true
+}
+
+Tweet 36 of 200
+Tweet: The strong wind is wreaking havoc across the region.
+Stay alert and be safe.
+
+#onstorm 
+
+Pictured is a tree that fell onto a townhouse on Columbia Ct, and a large commercial sign that toppled onto a parked car on Tecumseh Rd East. https://t.co/YG1eBH5Nua
+Response: {
+  "weather information": false,
+  "caution": true,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": true
+}
+
+Tweet 37 of 200
+Tweet: BREAKING: Thousands of homes and businesses in #Mississauga are currently without power due to winds. Alectra says power should be back around 8 p.m.
+#ONstorm #ONweather 
+
+https://t.co/BrUrjPA1hy
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 38 of 200
+Tweet: bit late with the warning - already happened... 
+
+#BCstorm https://t.co/15fccvcKpb
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 39 of 200
+Tweet: Bring on the snow!! I have a company shovelling for me, so let it snow, let it snow, let it snow. #yeg #yegweather #abstorm #abwx
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": true,
+  "other impact": false
+}
+
+Tweet 40 of 200
+Tweet: “Rising temperatures have caused the water cycle to accelerate...And that is exactly the manifestation that we’re seeing as a result of climate change.”
+
+https://t.co/O5AqKiOPgJ
+
+#climateemergency #bcfloods #bcstorm
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 41 of 200
+Tweet: SPECIAL WEATHER STATEMENT: Strong winds gusting of 70 to 90 km/h are expected for Thursday morning or early afternoon. Please exercise caution &amp; drive according to the road conditions.
+
+Updates: https://t.co/YNyOge2JyH #ONStorm #Kitchener https://t.co/1ZwsVJiQzk
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 42 of 200
+Tweet: You might want to bring in your favourite outdoor Christmas ornaments and tie-down your holiday displays as 'strong winds' are expected in Durham Region this afternoon. #ONstorm
+
+https://t.co/90tcBlCoB4
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 43 of 200
+Tweet: #FrozenFriday❄️ Working through wind, rain and snow. Road re-construction, slope stabilization and culvert installation continue at #MineCreek on #BCHwy5, repairing damage cause by the recent #flooding and extreme weather. 
+📷: @TranBC (Flickr) #EssentialServices4U #BCStorm https://t.co/SrDTFxs4nL
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 44 of 200
+Tweet: Woke up to a white Christmas. At least it happened after my daughter had her dental appointment. #bcstorm
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 45 of 200
+Tweet: Let's get ready for the cold wave, not like how BC handled the heatdome - protect shelter and warming center users with N95 masks, offer vaccines
+
+#BCpoli #BCstorm #BCcold https://t.co/j4Zalmoc3S
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": true,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 46 of 200
+Tweet: An extremely cold air mass form Siberia will descend on @Canada’s Prairies this week. Many locales will experience bitterly cold, potentially dangerous temperatures in the -20s, possibly dropping into the -30s, with wind chills of -30 or -40.  #ABwx #SKwx https://t.co/RL7MoDeFCu
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 47 of 200
+Tweet: Freezing rain expected to impact #LowerMainland roads this afternoon into evening.
+ 
+Crews are out pre-treating Service Area highways &amp; will continue patrolling until weather event passes. 
+
+Please drive with caution &amp; check @DriveBC 
+#ShiftIntoWinter #BCStorm https://t.co/VNZYjiRG4t
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 48 of 200
+Tweet: RT @PreparedBC: Winter storm warnings in place, #Nanaimo. Expect severe weather over the next several days &amp; avoid non-essential travel. Get ready: https://t.co/ULwnbRgjVx Weather Alerts: https://t.co/Gs2uU5VtAw
+#PreparedBC #BCstorm #YCD https://t.co/QLDwCN2p2T
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 49 of 200
+Tweet: From #BCstorm impact to recovery.
+We continue to add photos and videos to tell the story of the #BCflood that impacted so many of our BC roadways and the hard work underway to restore them. 
+https://t.co/cjRfONjK4B https://t.co/saRCIdKDZ6
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": true,
+    "remediation": true,
+    "other impact": true
+}
+
+Tweet 50 of 200
+Tweet: If you act quickly, you can minimize water damage and save some of your personal items. Some of your success depends on the type of water damage and how long the water has been there.
+
+https://t.co/Df5BeU2O0B
+
+#waterdamage #restoration #toronto #ONstorm #floodcleanup #insurance https://t.co/b5K3zkFITc
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 51 of 200
+Tweet: Well... every single model got the placement of today's low wrong. The first image is the forecast for 11:30 AM, the second image the actual position of the low at the same time per NOAA WPC. Hence the heavier snow falling farther west than forecast today. #nlwx https://t.co/aVuSktcAJF
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 52 of 200
+Tweet: As temperatures drop, haulers are finding that #foodscraps are freezing in green bins and they are unable to empty them. https://t.co/c7kws2gFkR
+#BCCold #BCStorm #polarVortex #Coldwave #compost
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 53 of 200
+Tweet: Last night CVSE issued nine tickets to commercial vehicle drivers for not carrying chains. Vehicles were heading for #BCHwy3 and #BCHwy5. 👮 👮  
+
+#BCTrucking, with more #BCStorm forecasted, carry and know how to install chains: https://t.co/7LzXjgtnnr  #ShiftIntoWinter https://t.co/yoUPM3Oxdm
+Response: {
+    "weather information": false,
+    "caution": true,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 54 of 200
+Tweet: We have deployed additional resources to attack this #BCstorm in the north #Vanisle Service Area https://t.co/MxNge54dGm
+
+Please drive with extreme caution, watch for roadside crews and before heading out, check @DriveBC for road condition updates.
+
+@TranBC @CHEK_News
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 55 of 200
+Tweet: With Christmas behind us, COVID running wild, and a deep freeze blowing in, I hereby challenge you all to a Who Can Stay in Their House the Longest contest. #BCstorm
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 56 of 200
+Tweet: ❄️🐾 Keep an eye on your pets in cold weather:
+◾️ Ensure they have access to warm shelter. Do not leave them outside or in a vehicle.
+◾️ Wipe paws after being outside to remove salt/ice melting chemicals
+◾️ Do not leave unattended by heat sources/candles
+#RichmondBC #BCStorm https://t.co/KelyAkYDju
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 57 of 200
+Tweet: This holiday season: 
+
+Go outside, freeze. Go somewhere inside, get omicron. 
+
+Best to stay home. #BCStorm #Omnicron
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 58 of 200
+Tweet: with this cold weather, I'm seriously thinking of making a batch of chile in the Instant Pot. #yeg #yyc #yegwx #yegweather #abstorm #ABWx
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 59 of 200
+Tweet: A fix for a frozen lock: a drop of hand sanitizer on the key. Just tried it on a padlock; worked perfectly.
+#BCstorm 
+#wawx
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 60 of 200
+Tweet: The main road by my place is a sheet of ice. To deal with it, @LangleyTownship has put up a sign that says local traffic only. That'll fix it.
+#bcstorm
+Response: {
+  "weather information": false,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": true,
+  "other impact": false
+}
+
+Tweet 61 of 200
+Tweet: There will be no respite from frigid temperatures until the end of the week for most of Western Canada as arctic wind chills blanket the area, sending temperatures plummeting. https://t.co/74pcsb7HMJ #abwx
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 62 of 200
+Tweet: Richmond has invested over $120 million in its dikes &amp; flood protection infrastructure to protect the community from:
+- the risks of weather events
+- rising sea levels attributed to climate change. 
+🏞️ Learn more: https://t.co/OcHsDPD2Gz
+#RichmondBC #BCStorm https://t.co/13y1S6CF8R
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 63 of 200
+Tweet: A slight warm up coming for you in Edmonton to start 2022. It's doesn't last long as another shot of Arctic air is poised to sneak down and bring -40 wind chills again. @weathernetwork #ABstorm https://t.co/GtUWfPbC2k
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 64 of 200
+Tweet: If you are planning to drive, ensure you have snow tires, give yourself extra time to get to your destination, drive slowly, and keep a lot of distance from other cars. #RoadSafety #BCStorm #ShiftIntoWinter https://t.co/quKofaWeO8
+Response: {
+  "weather information": false,
+  "caution": true,
+  "advice": true,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 65 of 200
+Tweet: Due to heavy snowfall and continued icy conditions in lanes and on side streets, we are temporarily suspending garbage collection December 30 and 31. Our sanitation crews are helping street operations staff with snow clearing across the city. #BCstorm #Vancouver https://t.co/tuzIrtLWhh
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 66 of 200
+Tweet: 1/ There remains much uncertainty for the timing and track of this weekend's system for S. ON. Here are two possible #ONStorm scenarios from different models for Saturday evening... (images from @weatherbell ) https://t.co/zHbiP1F639
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 67 of 200
+Tweet: Chris Cowley, General Manager, explains tandem plowing, also known as echelon plowing. https://t.co/arDbdlwUIT
+
+Do not attempt to pass snowplow equipment.  Please be patient, remain a safe distance, be safe.
+
+#Shiftintowinter #bcstorm
+Response: {
+    "weather information": false,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 68 of 200
+Tweet: Looks like 2021 weather has one final "fuck you" for us. #BCStorm https://t.co/ktuMTYDrUw
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 69 of 200
+Tweet: The Canadian Ice Service's mission is to provide the most timely and accurate information about ice in Canada's navigable waters. You want to know more about the latest ice conditions in your area? Follow this link: https://t.co/ei2z4BgIaR
+#QCstorm #ECCC https://t.co/nGvTyRlujP
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 70 of 200
+Tweet: 2021 leaves us cold …
+BUT … 2022 starts with a bit of a warm up!
+
+Chinook winds are forecast Saturday in southern #Alberta.
+If you’re travelling, expect low visibilities in blowing snow, especially near open areas like highways.
+
+Check @511Alberta  before you go!
+#abstorm
+(1/2) https://t.co/qlKq8WwTz7
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 71 of 200
+Tweet: Welcome to the #BritishColumbia #KnowBeforeYouGo HighwayCams website(s).
+
+Choice 1: https://t.co/ukEStuID82
+
+OR
+
+Choice 2: https://t.co/nVrCVYSfyl
+
+Preview your route(s) before putting your boots on. 
+
+Your choice.
+
+https://t.co/bWadToZySZ c/o 
+@TranBC
+
+#ShiftIntoWinter #BCStorm https://t.co/QL3yGFX10y
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 72 of 200
+Tweet: Stupid Winter Stats December 2021 compared to 2022.  Definitely a lot snowier this year.  Note: I forgot to add in 1 Arse over Tea kettle from yesterday before I saved the graphic.  I did a full on home alone slip on some ice hidden under some snow.  #nlwx https://t.co/mWFHCU4zJq
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": true
+}
+
+Tweet 73 of 200
+Tweet: It's a weird weird night out there friends... #bcstorm WEIRD
+BLIZZARD warning in Powell River. https://t.co/qM15qprJJT
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 74 of 200
+Tweet: MI’s Ridge Rd., Foxtrap and Holyrood locations are closed for the morning due to inclement weather. Further update at 11 a.m.  Employees are not required to work remotely while the university is closed due to weather.  Winter semester starts Jan. 10  #nlwx https://t.co/RMODCBM4Ak
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 75 of 200
+Tweet: In Edmonton and north of the city, Environment Canada said prolonged extreme cold wind chill values between -40 and -50 will continue until the coming weekend.
+#yeg #yegwx #abstorm #yegtraffic
+https://t.co/3yJlUoWdKz
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 76 of 200
+Tweet: Interesting to see all the foreign models cluster around a significant precipitation event for the GNP on Thursday (50-70 mm rain Daniel's Hr, 20-30 cm snow St. Anthony), while the Canadian model stands out with a much weaker solution.
+
+Stay tuned on this one! #nlwx https://t.co/mIWCx48Fx6
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 77 of 200
+Tweet: It's apparently a coldest night in 11 months kinda #nlwx night out there.
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 78 of 200
+Tweet: Another problem down the road, potential erosion and power outages as a powerful low lifts NE on Friday, paired with a King Tide. #BCStorm https://t.co/gnrH01sjGT
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": true
+}
+
+Tweet 79 of 200
+Tweet: Another storm moves in on Friday night and Saturday. Snow and blowing snow is expected for central and the west coast while the Avalon and Burin will see snow changing to ice pellets and then rain.
+
+Strong winds are expected across the Island.
+
+#nlwx
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 80 of 200
+Tweet: #Nanaimo, with the overnight winter storm, road conditions this morning are hazardous. Please stay off the roads unless absolutely necessary to give plows time to clear. #YCD #BCStorm @NanaimoNewsNOW @1069thewolf @1023TheWave @NanaimoBulletin
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": true,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 81 of 200
+Tweet: ❄️Snow removal reminder: Please clear your sidewalks of snow and ice. Residents and business owners are responsible for clearing the sidewalks by their property. If possible, assist your neighbour. https://t.co/XYLzdLvtIb #WhiteRockBC #BCStorm https://t.co/ZDyZwdGpF7
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 82 of 200
+Tweet: We're activating our Emergency Operations Centre at 10am on Friday as we prepare for the first winter storm of 2022. With weather reports calling for heavy, wet snow and wind beginning Friday, we’re positioning crews across NS. #NSstorm
+
+For more info: https://t.co/ND56HL8C0a. https://t.co/figMhGCJpq
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 83 of 200
+Tweet: Happy Thursday, everybody! Due to snow and weather conditions, the VRCA office will close at 2pm today to ensure our staff can get home safely. Please don't hesitate to reach out to the team via phone/email though! https://t.co/2FMAd0C4yU #BCstorm #besafe #staywarm https://t.co/Cppzva2SFc
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 84 of 200
+Tweet: It isn't all too often Vancouver sees a White Christmas but this video from just a few days after the holiday confirms the city's fourth White Christmas over the past 25 years! The last time the city saw snow on Christmas? 2008! #bcwx
+📍: North Vancouver, BC
+📹: @JWagstaffe https://t.co/DgBGR8kqnC
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 85 of 200
+Tweet: Snowmobilers, skiers and other winter sports enthusiasts in central and western N.L. will have plenty of fresh powder to play in on Saturday morning ⛷️❄️🛷  #nlwx  
+
+@AllisterCanada's update from @WS_DianeCrocker 
+
+https://t.co/b7BrTjFMB7 https://t.co/H1X56AWdT6
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 86 of 200
+Tweet: Hey #nbstorm folks... looking for a weather observer on Grand Manan Island! #atlstorm #NBwx
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 87 of 200
+Tweet: HRDPS model suggesting a swath of very high winds tomorrow from Notre Dame Bay to the northeast Avalon. Peak winds look to be around the NE Coast, where gusts in excess of 130 km/h are possible. Hurricane force is 119 km/h. #nlwx https://t.co/to5AwJmg6O
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 88 of 200
+Tweet: Easy to see where the axis of heaviest snow is going to be with this next Nor'easter. From western NS, up thru PEI and into western/Central Newfoundland. Widespread 30-40+ cm in those areas. #nlwx #ATLstorm https://t.co/xZdCCs44fz
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 89 of 200
+Tweet: As this storm approaches, keep in mind you can contact us 24/7, day or night. Be in the know if an outage affects you. We can send notifications directly to you by text. It’s easy. Just text REG to 63797 and follow the steps. Sign up today! #nlwx. https://t.co/rehYOemgey
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 90 of 200
+Tweet: Closeup of the trees in our yard. #Chilliwack #BCStorm https://t.co/sDTR8CbfSu
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 91 of 200
+Tweet: Yep, that was thunder and lightning in the middle of a snowstorm. Welcome to Nova Scotia #nsstorm https://t.co/HolQGeOIjz
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 92 of 200
+Tweet: Go home, Sentry Shoal, you're drunk. 5m wave height is certainly an anomalous reading. 50 gusting 60km/hr NNW winds is pretty significant for this part of the Strait. Especially after freezing drizzle all night froze tonnes of snow to the trees #BCStorm https://t.co/UDjFYt93XO
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": true
+}
+
+Tweet 93 of 200
+Tweet: Many areas of Central and eastern Newfoundland will see high wind gusts, nearing Hurricane force (119 km/h) Saturday afternoon. If you haven't secured loose items, this evening is your time to get that done. #nlwx https://t.co/fGtu3QsCnk
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 94 of 200
+Tweet: Alerts are still in effect for northern and eastern mainland Nova Scotia and Cape Breton.  Check your local forecasts and alerts for details about when conditions will improve in your area. #nsstorm
+
+https://t.co/sOd0L8Qw45 https://t.co/NMU8tqzmhr
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 95 of 200
+Tweet: The Maritimes will have time to dig out Saturday after a #WeatherBomb delivered a snowy and windy blast this week, and is now bringing blizzard conditions, whiteouts and locally heavy snowfall through Newfoundland. #NLstorm #NLwx - https://t.co/plgP6xnbM0
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 96 of 200
+Tweet: The power of a storm tide.  Storm tide = Storm surge + regular tide + wave setup from large waves.
+
+While I'm at it, wave setup is the max height up the "beach" the wave pushes the water.
+
+Obviously, this is always worse at high tide, and even worse during king tides. #nlwx https://t.co/ZVtGK7n5t1
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 97 of 200
+Tweet: Beautiful light fluffy snow falling in #portalberni #bcstorm #bcsnow
+https://t.co/SrGoKnJtXQ
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 98 of 200
+Tweet: Live from our Emergency Operations Centre, our Storm Lead, Matt Drover shares an update on our storm response. As of this morning, our crews have restored power for over 84% of customers who lost power. #NSstorm. https://t.co/XSxkqkXlta
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 99 of 200
+Tweet: Double trouble. Arctic air from the West set to serve #Ontario with its coldest temperatures of the season so far, while a prolonged snow squall event for Lake Huron and Georgian Bay threatens travel with hefty amounts expected. #ONstorm #ONwx https://t.co/PZMd7ZulGu
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 100 of 200
+Tweet: Don't get caught unprepared during the next big #BCStorm. Put together an outage plan and emergency kit for your home. Learn more: https://t.co/ZgxtC6tBeb https://t.co/bWjz4qDhpt
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 101 of 200
+Tweet: There could be limited road access from the #Kamloops area to the Lower Mainland at times as the province warns that highways closures are possible due to the risk of avalanche. #BCStorm https://t.co/ILxL2AKvI7 https://t.co/HRA4sUG82E
+Response: {
+    "weather information": false,
+    "caution": true,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 102 of 200
+Tweet: Travel was certainly hampered by snow squalls Monday in many locales near Lake Huron and Georgian Bay. As a result of treacherous conditions, some roadways were closed and at least one accident was reported (on Highway 400). #ONstorm #ONwx #OnSnow https://t.co/AxLu2GJC2c
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": true
+}
+
+Tweet 103 of 200
+Tweet: While the sudden warm weather after a lengthy cold snap is bringing Albertans out of hibernation, it could also pose some problems for your property. @SarahRyanYEG has some tips on how to protect your house from damage caused by rapid temperature shifts. 
+#yeg #yegwx #abstorm https://t.co/6KUr1tNNXT
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 104 of 200
+Tweet: #Winter in #Canada - Over the past 18 days, I spent time in #Edmonton and #Winnipeg. Over those 18 days, I experienced daytime highs averaging -21.1 C (-6F) and overnight lows averaging -30.2C (-22.4F). The cold pattern is finally breaking!
+#abstorm #mbstorm https://t.co/5EJ3UJZJmb
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 105 of 200
+Tweet: Toronto is experiencing its coldest temperature since January 31, 2019, this morning 🥶
+
+Be sure to dress warmly and limit time outdoors if venturing out today. #ONwx #Toronto #YYZ https://t.co/RsclhydXxf
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 106 of 200
+Tweet: During the winter, snow can overload your roof. This can degrade and damage your roof.
+
+Make sure you get a trained professional to remove snow from your roof and fix any damage.
+
+Contact us:
+604.474.1185
+https://t.co/poQ3Auls9Y 
+
+#roofrepair #roofing #coquitlam #bcstorm https://t.co/2sKCpeFH75
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 107 of 200
+Tweet: Quick look at the  models here. All of them show a double-barreled low off the Eastern U.S. by Friday afternoon.
+This will make the forecast complicated as impacts to Atlantic Canada will depend on just how these 2 centres interact. (see alt rext)
+#NSwx #NBwx #PEwx #NLwx #CBwx https://t.co/eLm94H9bw3
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 108 of 200
+Tweet: First time reaching the -30°C mark in almost 3 years at Happy Valley-Goose Bay #YYR this morning, with a low of -30.6°C through 8am.
+
+Last time was January 27, 2019 (when it reached -31.2°C).
+
+https://t.co/ngifsh3hDl #nlwx https://t.co/xJIpp5fIqs
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 109 of 200
+Tweet: Road Warriors say there are currently whiteout conditions on Route 7 between Saint John and Grand Bay-Westfield. #nbstorm
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 110 of 200
+Tweet: A few cold records were set yesterday over Quebec.
+https://t.co/1BmnvWAqCu
+#QCstorm https://t.co/HZdVBwT0b5
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 111 of 200
+Tweet: @CatIQ_Inc The tally is high enough to place 2021 in the top five loss years for the country. The $2.04 billion figure includes 14 events that incurred at least $25 million in insured losses. The year ties for second place in terms of the number of catastrophes. @CatIQ_Inc #BCstorm #ONstorm https://t.co/NAjWXeN5nN
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": true
+}
+
+Tweet 112 of 200
+Tweet: Has to be the third week in a row now where I go for a walk on a cold night and notice the streams are really close to being frozen over.    And it will be third week in a row where a warmup undoes all of that a day or two later.  The #nlwx yo-yo winters are not my favourite.
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 113 of 200
+Tweet: Ahead of the approaching #NSStorm, we're sharing our Top 10 tips to help prepare for #SevereWeather. Please share with family &amp; friends. https://t.co/7l2duuMiW0
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 114 of 200
+Tweet: Advice from @HealthNS about shoveling safety. #NSStorm https://t.co/CO8iVMv5v7
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 115 of 200
+Tweet: With a deluge of rainfall barrelling towards western N.L. today and into tomorrow, it may be especially prudent to heed the warnings and safety advice from local trail maintenance groups. #nlwx  
+
+From @WS_DianeCrocker 
+
+https://t.co/krCrKCew7p https://t.co/VYvYkuX1rg
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 116 of 200
+Tweet: GRCA Watershed Conditions Statement - Water Safety: 
+
+Stay off frozen natural water bodies
+
+https://t.co/qaX0f1pzGa
+
+#onflood #onstorm #onwx https://t.co/KFasJCBvp7
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 117 of 200
+Tweet: ❗️Storm Notice ❗️
+All HC campuses are closing at 3:30pm today, due to inclement weather. Distance classes will proceed as scheduled provided technology is functioning.  
+ For updates about closures &amp; delays, visit https://t.co/N6ljdwbf35 or download our HC Safe App. #PEstorm
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 118 of 200
+Tweet: As the storm arrives this evening, remember to keep our information close. Follow along for updates, and visit https://t.co/cKMppFqg0n for the latest outage information. (1/2) #NSstorm https://t.co/iUgiNW3QpE
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 119 of 200
+Tweet: Important reminder about keeping four-legged friends safe during storms.
+
+#NSStorm https://t.co/xxjy29zKJT
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 120 of 200
+Tweet: Combining the potential for freezing rain and heavy, wet snow with winds gusting 80-100 km/h (depending on your exact location) is not a good combination.
+This could very easily lead to significant outages across the region.
+#NSStorm #NBStorm #PEStorm #CBStorm https://t.co/8n3KBZxs87
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 121 of 200
+Tweet: All locations of the Pictou-Antigonish Regional Library are closed today, Saturday January 15, 2022, due to the #WinterStorm weather.  Take care! 💗 @CBCNS @989XFM @1015_The_Hawk @941thebreeze @REMOPictouCo #NSstorm https://t.co/hshIkYwMCn
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 122 of 200
+Tweet: The good news is this will be a quick-moving system, easing by Monday evening from west to east. However, it has the potential to drop significant amounts of snow in a short amount of time. Very impressive snowfall rates are expected with this storm. #ONstorm #ONwx https://t.co/LuFLSfpBnd
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 123 of 200
+Tweet: Sorry to say this #nlwx, but for some of us technically the wind hasn't even peaked yet.  That'll be in the next 1 to 3 hours.  Might be a sleep in the basement kinda night :P.
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 124 of 200
+Tweet: Did anyone leave a flag on a tall stick in southeastern Labrador so that we know where to find it? #nlwx
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 125 of 200
+Tweet: So I spent some time playing around with the Dark Sky prediction models today. Looks right now like the worst of what we're gonna get of #OnStorm #Izzy tomorrow will be between 3am &amp; 6am, with the heavy bands missing us and hitting to the east of #LdnOnt.
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 126 of 200
+Tweet: As we prepare for a snowstorm tonight, here's a friendly reminder to be careful not to pile salty snow on top of your well. Stay safe everyone! 
+#WellWater #WaterWell #groundwater #ProtectWellWater #ONstorm https://t.co/WxtGeFvGcv
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 127 of 200
+Tweet: Schools Closed and Buses Cancelled Across Simcoe-Muskoka Today https://t.co/LVGEyo1wl6 #simcoecounty #muskoka #school #buses #snowday #onstorm @SCDSB_Schools @SMCDSB @TLDSB @SCSTC_SchoolBus
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 128 of 200
+Tweet: You NEED to turn your full headlight system on. Daytime running lights don't help the people behind you. 
+#ONStorm #FoxKat915
+Response: {
+  "weather information": false,
+  "caution": true,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 129 of 200
+Tweet: Arrive safely with these #WinterDriving tips:
+Clear vehicle of ice/snow
+Fill windshield washer fluid
+Pack emergency car kit
+Turn on headlights
+Slow down, increase following distance
+Drive to conditions
+#SeeSnowGoSlow #ONStorm https://t.co/9niVLdaGC5
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 130 of 200
+Tweet: If you have senior citizens living on your street, try to help them out. This is a lot of snow. If you can clear their sidewalk ... that's helpful. If you can do their whole driveway ... amazing. #ONStorm
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": true,
+  "other impact": false
+}
+
+Tweet 131 of 200
+Tweet: This might come in handy today! 
+What to Do If You Get Stuck in the Snow This Winter - 
+https://t.co/SEP3bGXa0l #OnStorm https://t.co/8Qhxv9tqsi
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": true,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 132 of 200
+Tweet: How to Be Safe Around Big Trucks in Winter - https://t.co/ZTNQMIQWl4 #OnStorm https://t.co/gM40ZoU67r
+Response: {
+  "weather information": false,
+  "caution": true,
+  "advice": true,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 133 of 200
+Tweet: We know this is the last thing you want to read, but this storm now has the potential to be a blizzard, according to Environment Canada. #ONSTORM @environmentca 
+
+https://t.co/1NsFgcFSUt
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 134 of 200
+Tweet: How much snow did you get? ❄️☃️📏
+We want to know! Let us know by tweeting @ECCCWeatherON, tweeting to the hashtag #ONstorm, or emailing us at ONstorm@ec.gc.ca https://t.co/vgYHrdVyux
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 135 of 200
+Tweet: Due to poor weather conditions, we will be closed today: Monday, January 17th.
+
+Stay warm!
+
+#feetandup #markham #supportlocal #supportsmallbusiness #ONStorm #snowday https://t.co/OewDtqX6AA
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 136 of 200
+Tweet: Toronto pets wake up to a confusing world of snow and their reactions are hilarious https://t.co/zYtZKkSaSH #Toronto #ONstorm #snowTO
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 137 of 200
+Tweet: This is perhaps the most efficient way of getting around the city today. Tag us in your snow day photos! (Submitted by Nick Rutherford) #ONStorm https://t.co/xf2RQh8twI
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 138 of 200
+Tweet: Due to the storm, waste collection has been cancelled today and will resume tomorrow. 
+
+For any additional inquiries, please contact @RegionofHalton. 
+
+#MiltonON #ONStorm https://t.co/r0FyVWXmW1
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 139 of 200
+Tweet: Track my Plow interactive tool provides information on winter maintenance vehicles that are currently plowing, salting and sanding all provincial highways in Ontario
+#Caledon #OnStorm
+https://t.co/aUfvd9jXAf https://t.co/oSHa0qML9s
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 140 of 200
+Tweet: There's a fair bit of snow out there today, folks. Stay safe and only travel if you ABSOLUTELY have to - A Message From Your Friendly Neighborhood Schmoes
+
+#ONStorm #SnowStorm #snowday https://t.co/KyjPyYZLZM
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 141 of 200
+Tweet: YAY! It's a #snow ❄️ day in #BurlON due to the #ONStorm. Are you playing outside in the snow? https://t.co/BwwBbpMw9Y
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 142 of 200
+Tweet: If your drive was more than stressful this morning, maybe it's time to consider a new ride. AutoPlanet has a huge assortment of All-Wheel Drive and 4x4 vehicles for days like today! 
+
+#AutoPlanet #OnStorm #SnowDay #Blizzard #DriveSafe https://t.co/qW8c5s2H4d
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 143 of 200
+Tweet: Refuel after all that shoveling! Grab a Bacon Bap!
+Peameal &amp; sliced bacon, smoked gouda, lettuce, tomato &amp; onion. Topped w garlic aioli &amp; Edinburgh sauce on brioche bun.
+Available all week! 519-390-2767
+
+#eatlocal #supportlocal #kwfoodies #whatsonwr #wrfoodies #onstorm https://t.co/WrLCzYuO4C
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 144 of 200
+Tweet: The #ONStorm has affected bus travel across #hamont and #niagara. Routes have either been slowed or even cancelled. St. Catharines Transit says buses are down until 3 p.m.  
+https://t.co/DGymutuudy
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 145 of 200
+Tweet: Now that areas are getting cleaned up from the weekend storm, if you note anything that needs attention please send a text to the Province of PEI to report. This is available 24 hours a day.
+#StratfordPEI #PEI #pestorm https://t.co/qMOpPaiaaf
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 146 of 200
+Tweet: Did you know Winter Storms can cause us problems? Know what to do before, during &amp; after a storm. With today's snow, these important tips will help keep you and your family safe from a winter fire. #firesafety #ONStorm #WinterWeather 
+
+Find it Here: https://t.co/DKgqBnjuRM https://t.co/3ZBZdekQvF
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 147 of 200
+Tweet: Bringing back this memory from the early morning hours of snowmageddon 2019. #nlwx https://t.co/pZxca9XbbV
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 148 of 200
+Tweet: Doug Ford is driving around Toronto and picking up people stranded by the blizzard https://t.co/kseED86NXg #Toronto #DougFord #Ontario #ONpoli #ONstorm #snowTO
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": true,
+  "other impact": false
+}
+
+Tweet 149 of 200
+Tweet: While public transit is still operating in #Mississauga and Brampton on Monday, the current weather conditions are contributing to delays #onstorm
+https://t.co/InzVgwkvsK
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 150 of 200
+Tweet: Toronto Eaton Centre and other shopping malls are closing because of the snow https://t.co/sMxuOspPpN #Toronto #EatonCentre #ONstorm #snowTO
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": true,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 151 of 200
+Tweet: 🔔 No matter the weather, with Co-op Cabs, there's no surge pricing. EVER. We're always #AtYourService.
+
+Stay warm and stay safe — get to where you need to go in the #ONStorm with Co-op Cabs. Book your trip using the https://t.co/h5uD8NI0gy app or by calling @ 416-504-2667! 🚕
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 152 of 200
+Tweet: As today’s high winds blow across the province, keep our information close. You can report an outage or check your estimated restoration time at https://t.co/cKMppFqg0n. We hope you’re staying safe and dry! #NSstorm https://t.co/qFURSodhr3
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 153 of 200
+Tweet: Some west-end Peterborough residents took advantage of Monday’s snow storm to turn their street into a ski hill.
+#ONStorm 
+https://t.co/pU1IQqkMvv https://t.co/cxhBLwdH1r
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 154 of 200
+Tweet: Just took the dog out for a pee. Still heavy snow #OnStorm
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 155 of 200
+Tweet: There was definitely a lunar halo trying to manifest itself a wee bit earlier as I was coming home.  #nlwx
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 156 of 200
+Tweet: Hopefully, tmrw the roads are a bit better. 😆 It was a lovely walk, well climb. Saw 3 cars stuck! #snowday #ONStorm https://t.co/8Q3AKnXXed
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": true,
+  "other impact": true
+}
+
+Tweet 157 of 200
+Tweet: How did you do in today's #snowstorm #onstorm https://t.co/gHblsrPEh8
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 158 of 200
+Tweet: Do I need to worry about snow load on my cabin roof?
+https://t.co/U5oFOjH0pH
+#SnowDay #ONStorm
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 159 of 200
+Tweet: Monday was the 5th snowiest day on record in the Nation's Capital. ❄️☃️ #Ottawa #ONStorm #JUMPNextAtNight - @MrDRadio https://t.co/0WPK87xrPp
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 160 of 200
+Tweet: Ontario Premier Doug Ford mocked and praised for acting as 'taxi' and 'snow plow' during massive snow storm https://t.co/k6UqOAIjCm #DougFord #ONStorm #DoFo #snowmageddon #onpoli #Barrie #snrtg
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 161 of 200
+Tweet: How to Set Up a WordPress Intranet: A Comprehensive Guide
+https://t.co/d4slwpiZxl
+#5YearsWith3RACHA #ONStorm
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 162 of 200
+Tweet: Many highways in the Regina area are CLOSED right now. Do not head out if you can avoid it. Visibility is about 400M or even less at times in blowing snow. #skstorm #YQRTraffic https://t.co/csd2NmF4BT
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 163 of 200
+Tweet: Sometimes water damage caused by heavy snow melt and ice damming is easy to spot: water-stained ceilings, wet baseboards, peeling paint, and water damaged drywall. But it’s the water damage you DON'T SEE that can lead to bigger problems.
+
+https://t.co/lhcmm3ghfk
+
+#ONStorm #ONSnow
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 164 of 200
+Tweet: 10 cm of fresh snow in Charleswood as of 7 am. Snow depth at my location is now at 42 cm. That's our deepest snowpack in Winnipeg since March 2019, and we still have 2 months to build up! Snowbanks are getting big out there.. #MBstorm
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 165 of 200
+Tweet: **UPDATE** Port aux Basques campus will remain closed for the day (Tuesday, Jan. 18) due to an unplanned power outage in the area. #nlwx #nlschools
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 166 of 200
+Tweet: Let's have a High Five 🙌🏻 for all the snow plow drivers out and about again today clearing up the #OnStorm for the second day!
+Not to mention the construction crews working outside ✋🏼
+
+#ThankYou https://t.co/EPJvhS96pE
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 167 of 200
+Tweet: Grocery retailers rely on ‘just in time’ delivery and so weather events can lead to product shortages. Empty shelves should be temporary as retailers continue to pivot to get products back on shelves as quickly as possible. #ONstorm https://t.co/Dn0wjx9wrp
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 168 of 200
+Tweet: "It was like a Hallmark movie."
+Bowmanville couple overwhelmed when neighbours pulled together and shovelled street to help pregnant woman get to the hospital.
+ 
+https://t.co/TiRxD6d9SK
+
+#ONStorm https://t.co/QCbwbZ0p6j
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 169 of 200
+Tweet: Yesterday marked the third-largest snow event at Toronto Pearson since 1937 with a record-breaking 33 cm! The top two? February 25, 1956 with 39 cm and January 23, 1966 with 36 cm #ONStorm https://t.co/us6CRVzvLu
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 170 of 200
+Tweet: In case you missed it: With more snow coming, Clarington Catholic schools go virtual. #onstorm @PVNCCDSB 
+
+https://t.co/D7kTN1Zz6p https://t.co/2S3clCpk0l
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 171 of 200
+Tweet: Heads up in the GTA. If you have snow to clear on your car or driveway, do it today!  A temp drop is going to turn snowpacks to blocks of ice by tomorrow.  #onstorm #gta #toronto https://t.co/pOoHapvJYs
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 172 of 200
+Tweet: With all the snow we've had it's important to make sure all outside vent are clear of snow &amp; debris to stop a build-up of CO in your home. Carbon Monoxide is invisible and odorless. It's also important to have CO detectors installed in your home just in case. #firesafety #ONStorm https://t.co/ZT8HVD0ifo
+Response: {
+  "weather information": false,
+  "caution": true,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 173 of 200
+Tweet: Road closure: Main St. will be closed from Bronte St. to Ontario St. between 4-7 a.m. from Jan. 20-21 🚧
+
+This closure is to allow for snow removal ❄️ along Main St. 
+
+Please keep vehicles off of the streets as crews continue to clean up after the storm 📌
+
+#ONStorm #Blizzard22 https://t.co/pNhd7QNQXD
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 174 of 200
+Tweet: Amazing to think what talented engineers, project managers, skilled trades, construction workers, and many, many more can do in such a short amount of time. We are impressed... and grateful!  #BCStorm #BCroadtrip https://t.co/98TcTpC1Nu
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": false
+}
+
+Tweet 175 of 200
+Tweet: Shovel the space, keep the place? There’s a storm brewing over parking spots cleared on Toronto’s snow-clogged streets https://t.co/LnfC8x1q6F #toppoli #ONStorm #Toronto #WinterStorm #Parking #StreetParking #onpoli #snrtg
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 176 of 200
+Tweet: An extreme cold warning is in effect for southern Quebec and eastern Ontario through Saturday. Hydro-Québec is asking residents to cut back on their electric consumption during this cold snap in an effort to protect the grid. #qcstorm https://t.co/1jXibflQxm
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 177 of 200
+Tweet: From extreme heat and cold, to unprecedented rainfall, British Columbia experienced wild and devastating weather in 2021, which broke several electricity demand records. Read our latest report: https://t.co/yZhcm7NAtW #BCStorm https://t.co/wi70uksEiW
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 178 of 200
+Tweet: Ontario, you thought this was cold? The real deal is coming this week #onwx @weathernetwork https://t.co/Mtdf1MzR8o
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 179 of 200
+Tweet: Hey Edmonton, we highly suggest you make sure your vehicle's windshield washer fluid is topped up before driving today. It's a messy one out there!
+#yeg #yegtraffic #yegwx #abroads #abstorm
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": true,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 180 of 200
+Tweet: I just realized it's the weekend and it's sunny and not stormy.  Does someone want to check on #nlwx and make sure it's ok?...
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 181 of 200
+Tweet: 9 cm... pics from around town suggesting that measurement may be quite poor. #nlwx https://t.co/jTyjS4CF1A
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 182 of 200
+Tweet: The Arctic sea smoke is a type of fog that forms when very cold air passes over a much warmer surface, such as a river. In contact with bridges, roads or metallic structures, this fog freezes creating the "black ice" which can create slippery road conditions.
+#QCstorm https://t.co/wrPEN1q4jk
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 183 of 200
+Tweet: Sigh... starting to look  like we won't be dodging more rain and wind for next weekend.  C'mon #nlwx, just give me a 60 cm base to play around in / on.
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 184 of 200
+Tweet: Oh man, what a night for a walk in a glorious fluffy snow heaven.  All is not forgiven #nlwx, but this definitely buys you some goodwill.  It is such a calm night.  The only sound, the snow landing on my jacket.
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 185 of 200
+Tweet: A storm is expected to rapidly intensify, and possibly reach weather bomb criteria, as it tracks up the U.S. East Coast Friday night and Saturday. It could be a high-impact storm for Atlantic Canada later Saturday and into Sunday, as well. #NBstorm #NSstorm #PEstorm #NLwx https://t.co/l9oxOCwlYe
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 186 of 200
+Tweet: A significant storm is possible for NL this weekend. Right now it looks like rain for eastern Newfoundland. Snow to rain for central and the west coast. Snow for Labrador.
+
+Strong winds are expected and there should be storm surge.
+
+Keep checking back for details. #nlwx
+Response: {
+  "weather information": true,
+  "caution": true,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 187 of 200
+Tweet: Important information from @hfxgov about emergency shelter availability this coming weekend.
+
+#NSStorm https://t.co/gdgvIXbewN
+Response: {
+  "weather information": false,
+  "caution": false,
+  "advice": false,
+  "resource": true,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 188 of 200
+Tweet: Another notable stat about the East Coast storm will be the temperatures in parts of the region. Newfoundland will be 15 degrees warmer than Florida Saturday overnight into Sunday morning. St. John’s will see overnight low of 12°C, while Jacksonville will dip to -3°C. #NLwx #FLwx https://t.co/ehw21hRoQE
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 189 of 200
+Tweet: Due to the storm, @HealthNS has advised that COVID testing locations in Western Zone will close early.
+
+If you need to head out in the weather today, be sure to check in advance about cancellations and closures.
+
+#NSStorm https://t.co/a7ZnHWFoyx
+Response: {
+    "weather information": false,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 190 of 200
+Tweet: UPDATE: @TownOfYarmouth has advised that transit services will be cancelled today, Jan 29, due to the storm. 
+
+#NSStorm https://t.co/NomH5319dd
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 191 of 200
+Tweet: @MeghanHollett @ryantg65 You might be right.  Seeing how the current rainfall total for the month is 3 times the normal for January.  Heck, this story is already 20 mm above what normally falls for the month.  #nlwx https://t.co/teftM1C6Oh
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 192 of 200
+Tweet: A winter storm impacted the Maritimes Saturday.  Snowfall of 40 cm was reported in St. Georges, and this was followed by a few mm of rain.  Summary of unofficial snowfall accumulation for #PE https://t.co/cgZbU3gQMt
+Send us your weather reports using #PEStorm.
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 193 of 200
+Tweet: Let's try an #nlwx treasure hunt this morning.  People on the Avalon:  Reply with a picture of what snow you have left in your back yard.
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 194 of 200
+Tweet: This does not look good for our area. Unless you're a skier or snowmobiler. #ONstorm https://t.co/LaxlVQaiFj
+Response: {
+  "weather information": true,
+  "caution": false,
+  "advice": false,
+  "resource": false,
+  "service interruption": false,
+  "remediation": false,
+  "other impact": false
+}
+
+Tweet 195 of 200
+Tweet: Public Weather Alerts for Ontario south. Fog advisory in effect this morning.  If visibility is reduced while driving, slow down, watch for tail lights ahead and be prepared to stop. #ONStorm https://t.co/BcCss1D97T https://t.co/sgzMP3NsxE
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": true,
+    "resource": false,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 196 of 200
+Tweet: It was a busy weather weekend! New temp records, heavy rain and snow. 
+
+Here is a summary of all the final numbers: https://t.co/EClGS5xzx6
+
+#nlwx
+Response: {
+    "weather information": true,
+    "caution": false,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 197 of 200
+Tweet: According to @511Alberta and @CypressCounty, upwards of 30 vehicles were involved in the collision that has shut down a section of the Trans-Canada Highway between Brooks and Suffield.
+#yeg #abroads #abstorm #yegwx
+
+ https://t.co/F07A94KlKz
+Response: {
+    "weather information": false,
+    "caution": true,
+    "advice": false,
+    "resource": false,
+    "service interruption": true,
+    "remediation": false,
+    "other impact": true
+}
+
+Tweet 198 of 200
+Tweet: So the most recent snow storm has blocked my damn door... We keep getting snow almost every weekend...
+
+#nsstorm
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": false,
+    "resource": false,
+    "service interruption": false,
+    "remediation": true,
+    "other impact": true
+}
+
+Tweet 199 of 200
+Tweet: Dangerous travel conditions expected overnight tonight and Tuesday as a winter storm moves through Manitoba. 
+
+Blizzard warnings are out and conditions could last through Tuesday afternoon.  https://t.co/l601EjmnFM 
+
+Check road conditions here: https://t.co/RKnGzjP4ZL
+#mbstorm https://t.co/VA8ZAa07l1
+Response: {
+    "weather information": true,
+    "caution": true,
+    "advice": false,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+Tweet 200 of 200
+Tweet: Don’t forget to UPDATE your emergency kit. Items do expire and information changes. Most important, PRACTICE your family plan and update it as your family’s needs change. More tips at: https://t.co/O4iKu6O2nR 
+#nsstorm #nbstorm #nlwx #pestorm https://t.co/3rvIyaTGy2
+Response: {
+    "weather information": false,
+    "caution": false,
+    "advice": true,
+    "resource": true,
+    "service interruption": false,
+    "remediation": false,
+    "other impact": false
+}
+
+{'weather information': False,
+ 'caution': False,
+ 'advice': True,
+ 'resource': True,
+ 'service interruption': False,
+ 'remediation': False,
+ 'other impact': False}
+31856
+{
+  "advice": 52,
+  "resource": 60,
+  "weather information": 110,
+  "caution": 46,
+  "service interruption": 38,
+  "remediation": 24,
+  "other impact": 13
+}
+Unnamed: 0	conversation_id	created_at	author_id	lang	text	source	id	retweet_count	reply_count	...	user_tweet_count	user_listed_count	user_location	advice	caution	resource	remediation	other impact	service_interruption	weather_information
+0	0	1465843812979384320	2021-12-01T00:42:53.000Z	28612106	en	Remember to write a list of important contact ...	Hootsuite Inc.	1465843812979384320	4	0	...	54622.0	722.0	NaN	True	False	True	False	False	False	False
+1	1	1466107083493945350	2021-12-01T18:09:02.000Z	1022139761421561856	en	It's #BCStorm Season ~ Do you own property alo...	Sprout Social	1466107083493945350	1	0	...	3872.0	7.0	Parksville, British Columbia	False	False	True	False	False	False	False
+2	2	1466132501961789456	2021-12-01T19:50:02.000Z	1468394269	en	During an emergency having a working cell phon...	Hootsuite Inc.	1466132501961789456	2	0	...	5425.0	26.0	Langley BC	True	False	False	False	False	False	False
+3	3	1466138826133450755	2021-12-01T20:15:10.000Z	3064610619	en	We are pleased to announce that MetNotes are n...	Hootsuite Inc.	1466138826133450755	2	1	...	329.0	45.0	Newfoundland and Labrador, Canada	False	False	True	False	False	False	True
+4	4	1466154334274523136	2021-12-01T21:16:47.000Z	41618221	en	⚠️UPDATE #BCHwy99 - OPEN to essential travel o...	TweetDeck	1466154334274523136	17	0	...	155379.0	1422.0	British Columbia	False	True	True	False	False	True	True
+5 rows × 31 columns
